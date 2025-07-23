@@ -1,0 +1,16 @@
+Implement a Java program that demonstrate the three key OOP principles: Abstraction, Encapsulation and Inheritance.
+
+## Problem Statement:
+You are developing a vehicle management system. the system should support different types of vehicles likes cars and bikes while following OOP principles.
+
+### Task:
+1. Abstraction: Create an abstract class Vehicle with the following:
+   - String brand (Encapsulated use getter & setter)
+   - An abstract method void startEngine();
+
+2. Inheritance:
+   - Create two classes, Car and Bike that inherit from vehicle.
+Implement the startEngine() method in both subclasses.
+
+3. Encapsulation:
+The brand field in Vehicle should be private and must be accessible via getter & setter.
